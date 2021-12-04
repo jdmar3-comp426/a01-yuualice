@@ -1,0 +1,73 @@
+body {
+  background-color:white;
+  }
+
+h1 {
+  color: wheat;
+  background-color: white;
+  font-size: 100px;
+  font-family: monospace;
+  text-align: center;
+  margin-bottom: 0px;
+  }
+
+.eggs{
+  text-align: center;
+} 
+
+#egg{
+  background-color: transparent;
+}
+
+.container {
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 20px;
+}
+              
+.item {
+  flex-basis: auto; 
+
+}
+      
+.btn {
+  padding: 0;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  color: rgb(255, 237, 203);
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: #474044;
+  border-radius: 5px;
+}
+.btn:hover{
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  color: #474044;
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: rgb(255, 237, 203);
+  border-radius: 5px;
+
+}
+
+
+img{
+  width:400px;
+}
+
+.pokemon{
+  width: 300px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+
+}
+
+div > p{
+  font-size: 20px;
+  color: wheat;
+  font-family:Arial, Helvetica, sans-serif;
+}
