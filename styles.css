@@ -31,7 +31,7 @@ h1 {
 
 }
       
-input {
+.btn {
   padding: 0;
   border: none;
   font-family: Arial, Helvetica, sans-serif;
@@ -42,7 +42,7 @@ input {
   background-color: #474044;
   border-radius: 5px;
 }
-input:hover{
+.btn:hover{
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
@@ -66,7 +66,7 @@ img{
 
 }
 
-p{
+div > p{
   font-size: 20px;
   color: wheat;
   font-family:Arial, Helvetica, sans-serif;
