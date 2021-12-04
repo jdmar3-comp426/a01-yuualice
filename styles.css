@@ -1,38 +1,61 @@
 body {
-    background-color:white;
+  background-color:white;
   }
 
 h1 {
-    color: wheat;
-    background-color: white;
-    font-size: 100px;
-    font-family: monospace;
-    text-align: center;
+  color: wheat;
+  background-color: white;
+  font-size: 100px;
+  font-family: monospace;
+  text-align: center;
+  margin-bottom: 0px;
   }
+
 .eggs{
-    text-align: center;
+  text-align: center;
 } 
 
+#egg{
+  background-color: transparent;
+}
+
 .container {
-    display: flex; 
-    flex-direction: row;
-    justify-content: space-evenly;
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 20px;
 }
               
 .item {
-    flex-basis: auto; 
+  flex-basis: auto; 
+
 }
       
 button {
-    padding: 0;
-    border: none;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 0;
+  border: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 500;
   color: rgb(255, 237, 203);
-    background-color: transparent;
-    cursor: pointer;
-    padding: 10px 20px;
-    background-color: #474044;
-    border-radius: 5px;
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: #474044;
+  border-radius: 5px;
+}
+
+img{
+  width:400px;
+}
+
+.pokemon{
+  width: 300px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+
+}
+
+p{
+  font-size: 20px;
+  color: wheat;
+  font-family:Arial, Helvetica, sans-serif;
 }
